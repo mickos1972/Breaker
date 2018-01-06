@@ -3,6 +3,7 @@ import SceneKit
 class GameViewController: UIViewController
 {
     var scnView: SCNView!
+    var game = GameHelper.sharedInstance
     
     override func viewDidLoad()
     {
